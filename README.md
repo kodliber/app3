@@ -7,12 +7,12 @@ voici ce que je propose :
 ## Preparer le repository local
 * definir un repository avec l'application __Github Desktop__
 * au moment de creer le repository, utiliser le modele de .gitignore  "Android". C'est la l'astuce.
-* avec Android Studio, creer un nouveau projet : __ce projet doit se etre enregistre dans le meme dossier que le dossier defini pour le repository__.
+* avec Android Studio, creer un nouveau projet : __ce projet doit etre enregistre dans le meme dossier que le dossier defini pour le repository__. Il se plaindra que le fichier .gitignore existe deja; il ne faut pas l'ecraser.
 
 Exemple :
 Je veux partager un nouveau projet Android qui s'appelera App1.
 
-Avec GitHub Desktop je cree le repository : d:\repo\app1, sans oublier le fichier .gitignore sur le modele Android.
+Avec GitHub Desktop je cree le repository : d:\repo\app1. Etre attentif a l'option gitignore qui propose un modele pour Android.
 
 Ensuite avec Android Studio, je cree un nouveau projet du nom de "app1" dans le dossier "d:\repo". Android Studio va donc creer l'ensemble des fichiers necessaires, qui seront detectes par Github Desktop et ajoutes au premier commit.
 
